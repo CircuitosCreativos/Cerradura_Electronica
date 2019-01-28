@@ -11,8 +11,13 @@
 //pin salida rele
 #define RELE    3
 
+//Parametros constantes
+//Estados del rele
+#define ON      LOW
+#define OFF     HIGH
+
 //Parametros del timer
 #define DISPARO     100000 //Tiempo en microsegundos
-#define TIEMPO      300    //Incremento del contador para 30 segundos
+#define TIEMPO      200    //Incremento del contador para 30 segundos
 
 #endif

@@ -68,7 +68,7 @@ void setup() {
   pinMode(C, INPUT);
   pinMode(D, INPUT);
 
-  digitalWrite(RELE, LOW);
+  digitalWrite(RELE, OFF);
 
   estadoActual = ESPERA_DIGITO1;
   salida_espera_digito1();
