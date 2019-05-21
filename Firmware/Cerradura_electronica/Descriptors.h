@@ -13,11 +13,11 @@
 
 //Parametros constantes
 //Estados del rele
-#define ON      LOW
 #define OFF     HIGH
+#define ON      LOW
 
 //Parametros del timer
 #define DISPARO     100000 //Tiempo en microsegundos
-#define TIEMPO      200    //Incremento del contador para 30 segundos
+#define TIEMPO      200    //Incremento del contador para 20 segundos
 
 #endif

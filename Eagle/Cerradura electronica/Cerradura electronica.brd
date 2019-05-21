@@ -2534,7 +2534,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="48.445" y="14.08" size="1.778" layer="25" ratio="10" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.285" y="16.58" size="1.778" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="R7" library="rcl" package="R1206" value="1k" x="34.5" y="18" smashed="yes" rot="R270">
+<element name="R7" library="rcl" package="R1206" value="150R" x="34.5" y="18" smashed="yes" rot="R270">
 <attribute name="NAME" x="35.77" y="19.27" size="1.27" layer="25" ratio="10" rot="R270"/>
 <attribute name="VALUE" x="31.96" y="19.27" size="1.27" layer="27" rot="R270"/>
 </element>

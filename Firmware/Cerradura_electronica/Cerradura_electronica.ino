@@ -52,7 +52,7 @@ boolean b = false;
 boolean c = false;
 boolean d = false;
 char teclado[] = {'1', '2', '3', '4'}; //(solo cambiar si se cambia de teclado)
-char clave[] = {'2', '3', '1', '4'}; //Aqui se asigna la clave del sistema
+char clave[] = {'1', '2', '4', '4'}; //Aqui se asigna la clave del sistema
 char clave_in; //almacena la clave que ingresa el usuario con el teclado
 int contador = 0;
 //-------------------------------------------------------------
