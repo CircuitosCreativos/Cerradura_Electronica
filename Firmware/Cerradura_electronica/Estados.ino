@@ -91,6 +91,7 @@ void estado_digito4() {
     cambiaEstado(estado::CLAVE_CORRECTA);
   }
   if (entradaActual == entrada::INCORRECTO) {
+    pitido(BUZZ, 2, TIEMPO3);
     cambiaEstado(estado::ESPERA_DIGITO1);
   }
 }

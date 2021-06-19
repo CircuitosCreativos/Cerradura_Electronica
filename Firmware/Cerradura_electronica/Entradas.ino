@@ -7,6 +7,7 @@ void leerTeclado() {
 
   if (a == true && b == false && c == false && d == false) {
     clave_in = teclado[0];
+    pitido(BUZZ, 1, TIEMPO2);
     while (a == true) {
       a = digitalRead(A);
       delay(50);
@@ -14,6 +15,7 @@ void leerTeclado() {
   }
   else if (a == false && b == true && c == false && d == false) {
     clave_in = teclado[1];
+    pitido(BUZZ, 1, TIEMPO2);
     while (b == true) {
       b = digitalRead(B);
       delay(50);
@@ -21,6 +23,7 @@ void leerTeclado() {
   }
   else  if (a == false && b == false && c == true && d == false) {
     clave_in = teclado[2];
+    pitido(BUZZ, 1, TIEMPO2);
     while (c == true) {
       c = digitalRead(C);
       delay(50);
@@ -28,6 +31,7 @@ void leerTeclado() {
   }
   else  if (a == false && b == false && c == false && d == true) {
     clave_in = teclado[3];
+    pitido(BUZZ, 1, TIEMPO2);
     while (d == true) {
       d = digitalRead(D);
       delay(50);
